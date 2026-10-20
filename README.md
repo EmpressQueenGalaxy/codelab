@@ -45,17 +45,6 @@ El servicio ofrece una API REST para administrar clientes y consultar regiones. 
 
 2. Configurar la variable de entorno `DB_PASSWORD` con una contraseña local para PostgreSQL. En PowerShell:
 
-   ```powershell
-   $env:DB_PASSWORD = "tu_clave_local"
-   ```
-
-   En Bash (Linux/macOS):
-
-   ```bash
-   export DB_PASSWORD="tu_clave_local"
-   ```
-
-   Usa la **misma contraseña** al arrancar Docker y Spring Boot. No publiques contraseñas reales en el repositorio. Si ya existe el volumen de PostgreSQL con otra contraseña, cambiar esta variable no modifica automáticamente la contraseña del usuario existente.
 
 3. Iniciar PostgreSQL:
 
